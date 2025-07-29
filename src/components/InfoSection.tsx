@@ -84,13 +84,13 @@ export const InfoSection = () => {
           </div>
 
           {/* Mapa */}
-          <div className="animate-on-scroll">
-            <div className="bg-secondary/30 rounded-xl overflow-hidden shadow-lg hover-lift">
+          <div className="animate-on-scroll h-full">
+            <div className="bg-secondary/30 rounded-xl overflow-hidden shadow-lg hover-lift h-full">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168905770326!2d-58.40244!3d-34.595899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c4b3b7c1%3A0x5c9e0b0c5c9e0b0c!2sAv.%20Santa%20Fe%203421%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sus!4v1623456789012!5m2!1sen!2sus"
                 width="100%"
-                height="400"
-                style={{ border: 0 }}
+                height="100%"
+                style={{ border: 0, minHeight: '300px' }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
