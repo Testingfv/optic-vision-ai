@@ -10,16 +10,13 @@ import { Footer } from '@/components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* Banner de desarrollo */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-red-600 text-white text-center py-2 text-sm font-medium">
-        🚧 Sitio en construcción - Próximamente más funcionalidades 🚧
-      </div>
-
-      {/* Espaciador para el banner */}
-      <div className="h-10"></div>
-
       {/* Navegación */}
       <Navbar />
+
+      {/* Banner de desarrollo - sticky debajo del navbar */}
+      <div className="sticky top-0 z-40 bg-red-600 text-white text-center py-2 text-sm font-medium">
+        🚧 Sitio en construcción - Próximamente más funcionalidades 🚧
+      </div>
 
       {/* Contenido principal */}
       <main>
