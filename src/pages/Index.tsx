@@ -14,7 +14,7 @@ const Index = () => {
       <Navbar />
 
       {/* Banner de desarrollo - sticky debajo del navbar */}
-      <div className="sticky top-0 z-40 bg-red-600 text-white text-center py-2 text-sm font-medium">
+      <div className="sticky top-20 z-40 bg-red-600 text-white text-center py-2 text-sm font-medium">
         🚧 Sitio en construcción - Próximamente más funcionalidades 🚧
       </div>
 
